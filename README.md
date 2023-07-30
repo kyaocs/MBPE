@@ -4,7 +4,7 @@ This project aims to enumerate all maximal (structural) balanced k-plexes in sig
 
 MBPE and MBPE-opt are the executables, and are compiled on Ubuntu 18.04.5, with -O3 optimization.
 
-All of our datasets are publically available, and most of them are downloaded from [SNAP](https://snap.stanford.edu/data/index.html) and [KONECT](http://konect.cc/networks/).
+All of our datasets are publically available, and most of them are downloaded from [SNAP](https://snap.stanford.edu/data/index.html) and [KONECT](http://konect.cc/networks/). 
 
 ## Running Format
 
@@ -18,7 +18,7 @@ All of our datasets are publically available, and most of them are downloaded fr
 
 ./MBPE ./datasets/bitcoin.txt 2 3 A
 
-**Running example for maximal balanced k-plex enumeration by our advanced algorithm with mnimum-degree branching strategy**
+**Running example for maximal balanced k-plex enumeration by our advanced algorithm with minimum-degree branching strategy**
 
 ./MBPE-opt ./datasets/bitcoin.txt 2 3 A
 
@@ -28,15 +28,15 @@ The value of k should be at least 2, and tau should not be smaller than k.
 
 To test each technique, you can choose pre-defined parameters in the file "Utility.h" and re-compile the executables. Below are the functions of each parameter:
 
-**_CTprune_**: Applies vertex and edge reductions on the original graph.
+**\_CTprune\_**: Applies vertex and edge reductions on the original graph.
 
-**_ParVR_** and **_PP_**: Applies the partition-based vertex reduction technique.
+**\_ParVR\_** and **\_PP\_**: Applies the partition-based vertex reduction technique.
 
-**_VRinEnum_**: Applies the subgraph reduction technique.
+**\_VRinEnum\_**: Applies the subgraph reduction technique.
 
-**_PIVOT_**: Applies the pivot technique on the baseline algorithm.
+**\_PIVOT\_**: Applies the pivot technique on the baseline algorithm.
 
-**_mindegpivot_**: Applies the minimum-degree branching technique.
+**\_mindegpivot\_**: Applies the minimum-degree branching technique.
 
 ## Graph Format
 
