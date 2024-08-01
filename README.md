@@ -12,15 +12,15 @@ bitcoin.txt is an example signed graph from [SNAP](https://snap.stanford.edu/dat
 
 **Running example for maximal balanced k-plex enumeration by our baseline algorithm**
 
-./MBPE ./datasets/bitcoin.txt 2 3 B
+./MBPE ./bitcoin.txt 2 3 B
 
 **Running example for maximal balanced k-plex enumeration by our advanced algorithm**
 
-./MBPE ./datasets/bitcoin.txt 2 3 A
+./MBPE ./bitcoin.txt 2 3 A
 
 **Running example for maximal balanced k-plex enumeration by our advanced algorithm with minimum-degree branching strategy**
 
-./MBPE-opt ./datasets/bitcoin.txt 2 3 A
+./MBPE-opt ./bitcoin.txt 2 3 A
 
 ### Note
 
@@ -32,7 +32,7 @@ To test each technique, you can choose pre-defined parameters in the file "Utili
 
 **\_ParVR\_** and **\_PP\_**: Applies the partition-based vertex reduction technique.
 
-**\_VRinEnum\_**: Applies the subgraph reduction technique.
+**\_VRinEnum\_**: Applies the subgraph sparsification technique.
 
 **\_PIVOT\_**: Applies the pivot technique on the baseline algorithm.
 
