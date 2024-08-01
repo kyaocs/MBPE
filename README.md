@@ -4,7 +4,7 @@ This project aims to enumerate all maximal (structural) balanced k-plexes in sig
 
 MBPE and MBPE-opt are the executables, and are compiled on Ubuntu 18.04.5, with -O3 optimization.
 
-All of our datasets are publically available, and most of them are downloaded from [SNAP](https://snap.stanford.edu/data/index.html) and [KONECT](http://konect.cc/networks/). 
+bitcoin.txt is an example signed graph from [SNAP](https://snap.stanford.edu/data/index.html). 
 
 ## Running Format
 
